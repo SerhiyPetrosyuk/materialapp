@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+            android:id="@+id/active_family"
+            android:state_checked="true"
+            android:drawable="@drawable/avd_family"/>
+    <item
+            android:id="@+id/not_active_family"
+            android:drawable="@drawable/ic_family"/>
+
+    <transition
+            android:fromId="@id/not_active_family"
+            android:toId="@id/active_family"
+            android:drawable="@drawable/avd_family"/>
+
+</animated-selector>

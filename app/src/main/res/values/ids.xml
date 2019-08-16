@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="translation_y" type="id"/>
+    <item name="translation_z" type="id"/>
+    <item name="alpha" type="id"/>
+</resources>

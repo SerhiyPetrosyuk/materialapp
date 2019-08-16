@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/active_history"
+        android:state_checked="true"
+        android:drawable="@drawable/avd_animate_history"/>
+    <item
+        android:id="@+id/not_active_history"
+        android:drawable="@drawable/ic_history"/>
+
+    <transition
+        android:fromId="@id/not_active_history"
+        android:toId="@id/active_history"
+        android:drawable="@drawable/avd_animate_history"/>
+
+</animated-selector>

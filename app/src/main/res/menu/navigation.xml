@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+            android:id="@+id/item_history"
+            android:icon="@drawable/tab_history"
+            android:title="@string/label_history"
+            android:checked="true"
+            app:showAsAction="ifRoom"/>
+
+    <item
+            android:id="@+id/item_medical_centers"
+            android:icon="@drawable/tab_medical_centers"
+            android:title="@string/label_medical_centers"
+            app:showAsAction="ifRoom"/>
+
+    <item
+            android:id="@+id/item_family"
+            android:icon="@drawable/tab_family"
+            android:title="@string/label_family"
+            app:showAsAction="ifRoom"/>
+
+</menu>

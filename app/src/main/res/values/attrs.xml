@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="SecondaryAppBarLayout">
+        <attr name="expandedTitle" format="string"/>
+        <attr name="collapsedTitle" format="string"/>
+        <attr name="defaultElevation" format="dimension"/>
+    </declare-styleable>
+
+</resources>
