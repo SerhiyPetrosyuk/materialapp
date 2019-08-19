@@ -9,14 +9,14 @@
         <path
             android:name="arrow"
             android:pathData="M 9.14 9.158 L 5.068 13.229 L 1 9.158"
-            android:strokeColor="#36b49f"
+            android:strokeColor="@color/colorAccent"
             android:strokeLineCap="round"
             android:strokeLineJoin="round"
             android:strokeWidth="2"/>
         <path
             android:name="circle"
             android:pathData="M 5.101 12.71 C 5.008 12.162 4.96 11.598 4.96 11.022 C 4.96 5.488 9.447 1 14.981 1 C 20.515 1 25 5.488 25 11.022 C 25 16.556 20.512 21.043 14.978 21.043 C 12.406 21.043 10.059 20.072 8.286 18.48"
-            android:strokeColor="#36b49f"
+            android:strokeColor="@color/colorAccent"
             android:strokeLineCap="round"
             android:strokeLineJoin="round"
             android:strokeWidth="2"/>

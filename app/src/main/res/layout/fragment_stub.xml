@@ -10,6 +10,7 @@
         app:layout_behavior="@string/appbar_scrolling_view_behavior">
 
         <androidx.cardview.widget.CardView
+            style="@style/Widget.MaterialComponents.CardView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="16dp"
@@ -23,24 +24,28 @@
                 android:orientation="vertical">
 
                 <com.google.android.material.button.MaterialButton
+                    style="@style/Widget.MaterialComponents.Button"
                     android:id="@+id/button_go_to_onboarding"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="go to onboarding" />
 
                 <com.google.android.material.button.MaterialButton
+                    style="@style/Widget.MaterialComponents.Button"
                     android:id="@+id/button_test_lottie"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="test lottie" />
 
                 <com.google.android.material.button.MaterialButton
+                    style="@style/Widget.MaterialComponents.Button"
                     android:id="@+id/button_chips_dialog"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="show chips dialog" />
 
                 <androidx.appcompat.widget.AppCompatTextView
+                    style="?attr/textAppearanceBody1"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="@string/stub_text"

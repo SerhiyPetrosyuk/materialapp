@@ -34,12 +34,13 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:text="Medical Centers"
-            android:textAppearance="?attr/textAppearanceHeadline5"
+            style="@style/textAppearanceHeadline5"
             app:layout_constraintEnd_toEndOf="@id/content_guideline_end"
             app:layout_constraintStart_toStartOf="@id/content_guideline_start"
             app:layout_constraintTop_toTopOf="@id/content_guideline_top" />
 
         <androidx.cardview.widget.CardView
+            style="@style/Widget.MaterialComponents.CardView"
             android:id="@+id/card"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
@@ -113,7 +114,7 @@
                     android:layout_height="wrap_content"
                     android:maxLines="2"
                     android:text="@string/collapsed_title"
-                    android:textColor="@android:color/black"
+                    android:textAppearance="?attr/textAppearanceBody1"
                     android:textSize="14sp"
                     android:textStyle="bold"
                     app:layout_constraintEnd_toEndOf="@id/image_star_guideline_start"
@@ -122,6 +123,7 @@
 
                 <androidx.appcompat.widget.AppCompatTextView
                     android:id="@+id/text_desc"
+                    style="?attr/textAppearanceCaption"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:text="Immunologist, Allergist, ophthalmology"
@@ -151,7 +153,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginEnd="4dp"
                         android:text="254"
-                        android:textAppearance="@style/TextAppearance.MaterialComponents.Caption" />
+                        style="@style/textAppearanceCaption" />
 
                     <androidx.appcompat.widget.AppCompatImageView
                         android:layout_width="wrap_content"
@@ -164,7 +166,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="90"
-                        android:textAppearance="@style/TextAppearance.MaterialComponents.Caption" />
+                        style="@style/textAppearanceCaption" />
 
                 </LinearLayout>
 

@@ -26,5 +26,6 @@
     <string name="label_sunday">Sunday</string>
     <string name="label_closed">Closed</string>
     <string name="text_saturday_hours">10:00 a.m. - 14:00 p.m.</string>
+    <string name="label_hours">Hours</string>
 
 </resources>

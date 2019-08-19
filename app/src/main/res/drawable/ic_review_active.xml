@@ -5,42 +5,42 @@
     android:viewportHeight="26">
   <path
       android:pathData="M4,22H1V8H13V4L14,2L16,1H33V4H16V8H19L21,11H4V22Z"
-      android:fillColor="#C4F4F2"/>
+      android:fillColor="@color/colorAccentVariant"/>
   <path
       android:pathData="M0,8C0,7.4477 0.4477,7 1,7H18C20.2091,7 22,8.7909 22,11V22C22,22.5523 21.5523,23 21,23H8.3333L4.6,25.8C4.297,26.0273 3.8916,26.0638 3.5528,25.8944C3.214,25.725 3,25.3788 3,25V23H1C0.4477,23 0,22.5523 0,22V8ZM2,9V21H4C4.5523,21 5,21.4477 5,22V23L7.4,21.2C7.5731,21.0702 7.7836,21 8,21H20V11C20,9.8954 19.1046,9 18,9H2Z"
-      android:fillColor="#36B49F"
+      android:fillColor="@color/colorAccent"
       android:fillType="evenOdd"/>
   <path
       android:pathData="M34,1C34,0.4477 33.5523,0 33,0H16C13.7909,0 12,1.7909 12,4V7H14V4C14,2.8954 14.8954,2 16,2H32V14H30C29.4477,14 29,14.4477 29,15V16L26.6,14.2C26.4269,14.0702 26.2164,14 26,14H21V16H25.6667L29.4,18.8C29.703,19.0273 30.1084,19.0638 30.4472,18.8944C30.786,18.725 31,18.3788 31,18V16H33C33.5523,16 34,15.5523 34,15V1Z"
-      android:fillColor="#36B49F"
+      android:fillColor="@color/colorAccent"
       android:fillType="evenOdd"/>
   <path
       android:pathData="M4,12H14V14H4V12Z"
-      android:fillColor="#36B49F"/>
+      android:fillColor="@color/colorAccent"/>
   <path
       android:pathData="M16,12H18V14H16V12Z"
-      android:fillColor="#36B49F"/>
+      android:fillColor="@color/colorAccent"/>
   <path
       android:pathData="M4,16H9V18H4V16Z"
-      android:fillColor="#36B49F"/>
+      android:fillColor="@color/colorAccent"/>
   <path
       android:pathData="M11,16H18V18H11V16Z"
-      android:fillColor="#36B49F"/>
+      android:fillColor="@color/colorAccent"/>
   <path
       android:pathData="M24,5H26V7H24V5Z"
-      android:fillColor="#36B49F"/>
+      android:fillColor="@color/colorAccent"/>
   <path
       android:pathData="M28,5H30V7H28V5Z"
-      android:fillColor="#36B49F"/>
+      android:fillColor="@color/colorAccent"/>
   <path
       android:pathData="M24,9H30V11H24V9Z"
-      android:fillColor="#36B49F"/>
+      android:fillColor="@color/colorAccent"/>
   <path
       android:pathData="M4,2C2.8954,2 2,2.8954 2,4V5H0V4C0,1.7909 1.7909,0 4,0H5V2H4Z"
-      android:fillColor="#36B49F"
+      android:fillColor="@color/colorAccent"
       android:fillType="evenOdd"/>
   <path
       android:pathData="M30,24C31.1046,24 32,23.1046 32,22L32,21L34,21L34,22C34,24.2091 32.2091,26 30,26L29,26L29,24L30,24Z"
-      android:fillColor="#36B49F"
+      android:fillColor="@color/colorAccent"
       android:fillType="evenOdd"/>
 </vector>

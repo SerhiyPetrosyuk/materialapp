@@ -82,7 +82,8 @@ class MainActivity : AppCompatActivity() {
         super.onBackPressed()
     }
 
-    inner class PagedAdapter(fm: FragmentManager?) : FragmentStatePagerAdapter(fm) {
+    inner class PagedAdapter(fm: FragmentManager) :
+        FragmentStatePagerAdapter(fm, BEHAVIOR_RESUME_ONLY_CURRENT_FRAGMENT) {
 
         override fun getPageTitle(position: Int): CharSequence? = when (position) {
             TAB_GENERAL_POSITION -> TAB_GENERAL

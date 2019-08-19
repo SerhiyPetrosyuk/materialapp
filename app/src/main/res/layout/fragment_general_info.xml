@@ -7,7 +7,7 @@
     <androidx.core.widget.NestedScrollView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@android:color/white"
+        android:background="@color/colorPrimary"
         app:layout_behavior="@string/appbar_scrolling_view_behavior">
 
         <androidx.constraintlayout.widget.ConstraintLayout
@@ -44,6 +44,7 @@
 
             <androidx.cardview.widget.CardView
                 android:id="@+id/card_points"
+                style="@style/Widget.MaterialComponents.CardView"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 app:cardCornerRadius="6dp"
@@ -76,8 +77,8 @@
                         android:layout_height="wrap_content"
                         android:layout_marginStart="16dp"
                         android:text="Points pay available"
-                        android:textAllCaps="false"
-                        android:textAppearance="@style/TextAppearance.MaterialComponents.Button"
+                        android:textAppearance="?attr/textAppearanceBody1"
+                        android:textStyle="bold"
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintStart_toEndOf="@id/image_star"
                         app:layout_constraintTop_toTopOf="parent" />
@@ -87,7 +88,7 @@
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:text="@string/text_points"
-                        android:textAppearance="@style/TextAppearance.MaterialComponents.Caption"
+                        android:textAppearance="?attr/textAppearanceCaption"
                         app:layout_constraintEnd_toEndOf="@id/title"
                         app:layout_constraintStart_toStartOf="@id/title"
                         app:layout_constraintTop_toBottomOf="@id/title" />
@@ -102,7 +103,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="24dp"
                 android:text="@string/label_about"
-                android:textAppearance="@style/TextAppearance.MaterialComponents.Subtitle1"
+                android:textAppearance="?attr/textAppearanceBody1"
                 app:layout_constraintStart_toStartOf="@id/guideline_start"
                 app:layout_constraintTop_toBottomOf="@id/card_points" />
 
@@ -125,7 +126,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="38dp"
                 android:text="@string/label_address"
-                android:textAppearance="@style/TextAppearance.MaterialComponents.Subtitle1"
+                android:textAppearance="?attr/textAppearanceBody1"
                 app:layout_constraintStart_toStartOf="@id/guideline_start"
                 app:layout_constraintTop_toBottomOf="@id/text_about" />
 
@@ -189,8 +190,8 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="38dp"
-                android:text="@string/label_address"
-                android:textAppearance="@style/TextAppearance.MaterialComponents.Subtitle1"
+                android:text="@string/label_hours"
+                android:textAppearance="?attr/textAppearanceBody1"
                 app:layout_constraintStart_toStartOf="@id/guideline_start"
                 app:layout_constraintTop_toBottomOf="@id/label_country" />
 

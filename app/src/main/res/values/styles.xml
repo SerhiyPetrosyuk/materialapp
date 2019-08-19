@@ -1,14 +1,18 @@
 <resources>
 
     <!-- Base application theme. -->
-    <style name="AppTheme" parent="Theme.MaterialComponents.Light.DarkActionBar">
+    <style name="AppTheme" parent="Theme.MaterialComponents.DayNight.NoActionBar">
         <!-- Customize your theme here. -->
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
         <item name="textAppearanceBody1">@style/textAppearanceBody1</item>
         <item name="textAppearanceHeadline3">@style/textAppearanceHeadline3</item>
+        <item name="textAppearanceHeadline5">@style/textAppearanceHeadline5</item>
+        <item name="textAppearanceCaption">@style/textAppearanceCaption</item>
         <item name="android:alertDialogTheme">@style/Theme.CustomDialog</item>
+        <item name="colorOnSurface">@color/colorOnSurface</item>
+        <item name="colorSurface">@color/colorSurface</item>
     </style>
 
     <style name="AppTheme.NoActionBar">
@@ -17,8 +21,9 @@
         <item name="textAppearanceHeadline3">@style/textAppearanceHeadline3</item>
     </style>
 
-    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Light"/>
-    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light"/>
+    <style name="AppTheme.AppBarOverlay" parent="Theme.MaterialComponents.DayNight" />
+
+    <style name="AppTheme.PopupOverlay" parent="Theme.MaterialComponents.DayNight" />
 
     <style name="Theme.CustomDialog" parent="Base.V0.Theme.CustomDialog" />
 
@@ -28,7 +33,7 @@
     </style>
 
     <style name="textAppearanceBody1" parent="TextAppearance.MaterialComponents.Body1">
-        <item name="android:textColor">@color/colorAccent</item>
+        <item name="android:textColor">@color/colorOnSurface</item>
     </style>
 
     <style name="textAppearanceHeadline3" parent="TextAppearance.MaterialComponents.Headline3">
@@ -39,10 +44,17 @@
         <item name="android:ellipsize">marquee</item>
     </style>
 
+    <style name="textAppearanceHeadline5" parent="TextAppearance.MaterialComponents.Headline5">
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:textColor">@color/colorOnSurface</item>
+    </style>
+
     <style name="TabTextAppearance" parent="TextAppearance.MaterialComponents.Button">
         <item name="android:textAllCaps">false</item>
         <item name="android:textSize">12sp</item>
         <item name="android:textStyle">normal</item>
     </style>
+
+    <style name="textAppearanceCaption" parent="@style/TextAppearance.MaterialComponents.Caption" />
 
 </resources>

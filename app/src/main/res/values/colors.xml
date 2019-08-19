@@ -3,4 +3,7 @@
     <color name="colorPrimary">#ffffff</color>
     <color name="colorPrimaryDark">#E2E2E2</color>
     <color name="colorAccent">#36B49F</color>
+    <color name="colorAccentVariant">#C4F4F2</color>
+    <color name="colorSurface">#fff</color>
+    <color name="colorOnSurface">#000</color>
 </resources>

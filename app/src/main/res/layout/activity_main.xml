@@ -27,7 +27,6 @@
                 android:id="@+id/toolbar"
                 android:layout_width="match_parent"
                 android:layout_height="?attr/actionBarSize"
-                android:background="@color/colorPrimary"
                 app:popupTheme="@style/AppTheme.PopupOverlay" />
 
         </com.google.android.material.appbar.AppBarLayout>
@@ -146,7 +145,7 @@
             style="@style/Widget.MaterialComponents.BottomNavigationView"
             android:layout_width="match_parent"
             android:layout_height="?attr/actionBarSize"
-            android:background="@android:color/white"
+            android:background="@color/colorSurface"
             app:itemIconTint="@color/tab_color"
             app:itemTextColor="@color/tab_color"
             app:labelVisibilityMode="selected"

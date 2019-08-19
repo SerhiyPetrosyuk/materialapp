@@ -57,6 +57,8 @@ class StubFragment : Fragment() {
 
         val dialog = AlertDialog.Builder(requireContext(), R.style.Theme_CustomDialog)
             .setView(dialogBinding.root)
+            .setNegativeButton("Cancel", null)
+            .setPositiveButton("Select", null)
             .create()
 
         dialog.show()
